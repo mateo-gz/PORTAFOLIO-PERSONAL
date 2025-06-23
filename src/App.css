@@ -68,7 +68,7 @@ body {
 }
 
 .terminal-contenedor-terminal:hover {
-  transform: scale(1.02) translateY(-5px);
+  transform: scale(1.01) translateY(-3px);
   box-shadow: 0 0 30px var(--color-terciario), 0 0 50px var(--color-terciario);
 }
 
@@ -609,4 +609,47 @@ body {
 /* HOME SECTION MEDIAQUERIES */
 
 @media screen and (min-width: 700px) and (max-width: 1500px) {
+.navbar {
+  height: 70px; /* ajustalo a lo que tengas */
+  flex-shrink: 0;
+}
+
+.navbar a {
+  box-sizing: border-box;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+}
+
+.home-content {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 60px;
+  background-image: url('/fondo-vertical.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.terminal {
+  
+}
+
+.terminal-contenedor-terminal {
+  height: 90%;
+}
+
+/* === About me section === */
+
+.about-contact {
+  width: 60%;
+  margin: auto;
+}
+
+.glasscard {
+  width: 100%;
+}
 }
