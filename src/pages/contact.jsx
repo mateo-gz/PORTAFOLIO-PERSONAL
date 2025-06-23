@@ -6,7 +6,7 @@ const Contact = () => {
       <h2 className="contact-title">📬 Contacto</h2>
       <form
         className="contact-form"
-        action="https://formspree.io/f/{tu_id_aquí}" // o reemplazalo con tu backend
+        action="https://formspree.io/f/mgvynnwz" // o reemplazalo con tu backend
         method="POST"
       >
         <input type="text" name="name" placeholder="Tu nombre" required />
