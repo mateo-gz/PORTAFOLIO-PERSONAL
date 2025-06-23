@@ -7,7 +7,7 @@ const Portfolio = () => {
       title: 'To-Do App',
       description: 'App simple para gestionar tareas con React y LocalStorage.',
       tech: ['React', 'CSS', 'JavaScript'],
-      image: '/public/todo.png',
+      image: '/todo.png',
       github: 'https://github.com/mateo-gz/To-Do-List',
       demo: 'https://to-do-list-of-mateo-gomez.netlify.app/'
     },
@@ -15,7 +15,7 @@ const Portfolio = () => {
       title: 'App para Liga de Fútbol',
       description: 'Aplicación para gestionar equipos y partidos de una liga de fútbol.',
       tech: ['React', 'API', 'CSS', 'Node.js', 'Express', 'PostgreSQL'],
-      image: '/public/sn.png',
+      image: '/sn.png',
       github: 'https://github.com/mateo-gz/FRONTENDSN',
       demo: 'https://liga-san-lucas-futsal.onrender.com'
     },
@@ -23,7 +23,7 @@ const Portfolio = () => {
       title: 'Landing Page',
       description: 'Página de aterrizaje para un proyecto ficticio.',
       tech: ['React', 'CSS'],
-      image: '/public/landingPage.png',
+      image: '/landingPage.png',
       github: 'https://github.com/mateo-gz/landing-page',
       demo: 'https://fake-landing-page-mateo.netlify.app/'
     },
