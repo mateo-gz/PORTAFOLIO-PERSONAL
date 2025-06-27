@@ -6,18 +6,26 @@ const Portfolio = () => {
     {
       title: 'App para Liga de Fútbol',
       description: 'Aplicación para gestionar equipos y partidos de una liga de fútbol.',
-      tech: ['React', 'API', 'CSS', 'Node.js', 'Express', 'PostgreSQL'],
+      tech: ['HTML', 'React', 'API', 'CSS', 'Node.js', 'Express', 'PostgreSQL'],
       image: '/sn.png',
       github: 'https://github.com/mateo-gz/FRONTENDSN',
       demo: 'https://liga-san-lucas-futsal.onrender.com'
     },
-        {
+    {
       title: 'Landing Page',
       description: 'Página de aterrizaje para un proyecto ficticio.',
-      tech: ['React', 'CSS'],
+      tech: ['React', 'HTML', 'CSS'],
       image: '/landingPage.png',
       github: 'https://github.com/mateo-gz/landing-page',
       demo: 'https://fake-landing-page-mateo.netlify.app/'
+    },
+    {
+      title: 'Landing Page Responsive',
+      description: 'Página de aterrizaje responsive para un proyecto ficticio.',
+      tech: ['React', 'HTML', 'CSS'],
+      image: '/landing-page.png',
+      github: 'https://github.com/mateo-gz/landing-barber',
+      demo: 'https://landing-barber-mateogz.netlify.app/'
     },
   ];
 
